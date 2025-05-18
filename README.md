@@ -10,12 +10,13 @@ Economic Algorithms is a field that combines economics, game theory, and compute
 
 The repository is organized by assignment topics:
 
-- **Assignment 2**: Fair division algorithms and leximin comparison
-- **Assignment 5**: Envy-free allocations and fair division concepts
-- **Assignment 7**: Resource allocation algorithms
-- **Assignment 10**: Nash welfare optimization for budget allocation
-- **Assignment 11**: Mechanism design implementations
-- **Assignment 12**: Auction theory and simulations
+- **Assignment_2**: Fair division algorithms and leximin comparison
+- **Assignment_3**: Advanced fair division techniques
+- **Assignment_5**: Envy-free allocations and fair division concepts
+- **Assignment_7**: Resource allocation algorithms
+- **Assignment_10**: Nash welfare optimization for budget allocation
+- **Assignment_11**: Mechanism design implementations
+- **Assignment_12**: Auction theory and simulations
 
 ## Key Topics Covered
 
@@ -26,10 +27,33 @@ The repository is organized by assignment topics:
 - **Mechanism Design**: Creating systems that align incentives with desired outcomes
 - **Social Choice Theory**: Aggregating individual preferences into collective decisions
 
+## Assignment Details
+
+### Assignment 2: Fair Division and Leximin Comparison
+Implementations of leximin ordering for comparing allocations and algorithms for finding almost envy-free allocations.
+
+### Assignment 3: Advanced Fair Division
+Focuses on more advanced fair division techniques and their implementations.
+
+### Assignment 5: Envy-Free Allocations
+Implementation of the EF1 (Envy-Free up to 1 item) property and algorithms to check fair allocation of indivisible goods.
+
+### Assignment 7: Resource Allocation Algorithms
+Implementation of different choice rules and threshold-based payment mechanisms.
+
+### Assignment 10: Nash Welfare Optimization
+Algorithms for optimizing Nash welfare in budget allocation problems using convex optimization.
+
+### Assignment 11: Mechanism Design
+Implementations focused on designing economic mechanisms with specific properties.
+
+### Assignment 12: Auction Theory and Simulations
+Algorithms for various auction formats and their simulations.
+
 ## Technologies Used
 
 - **Python**: Primary programming language for algorithm implementation
-- **Jupyter Notebooks**: For analysis and visualization
+- **CVXPY**: For convex optimization problems
 - **NumPy/SciPy**: For mathematical operations and simulations
 - **Matplotlib**: For data visualization
 
@@ -38,7 +62,11 @@ The repository is organized by assignment topics:
 ### Prerequisites
 
 - Python 3.x
-- Required packages listed in `requirements.txt`
+- Required packages:
+  - NumPy
+  - CVXPY
+  - Matplotlib
+  - Copy
 
 ### Installation
 
@@ -47,22 +75,21 @@ The repository is organized by assignment topics:
 git clone https://github.com/YairRaviv/Economic_Algorithms.git
 
 # Install dependencies
-pip install -r requirements.txt
+pip install numpy cvxpy matplotlib
 ```
 
 ## Course Information
 
 - **Course**: Economic Algorithms
 - **Institution**: Ariel University
-- **Instructor**: [Instructor Name]
-- **Academic Year**: [Year]
+- **Academic Year**: 2021-2022
 
 ## Notable Implementations
 
-- **Cake Cutting Algorithms**: Implementation of various fair division protocols
-- **Stable Matching Algorithm**: Gale-Shapley algorithm for the stable marriage problem
-- **Auction Simulations**: First-price, second-price, and combinatorial auctions
-- **Nash Equilibrium Solvers**: Tools for finding equilibria in various games
+- **Leximin Comparison**: Implementation in Assignment_2/BetterLeximin.py
+- **EF1 Check**: Implementation in Assignment_5/Assignment_5.py
+- **Payment Mechanisms**: Implementation in Assignment_7/Assignment_7.py
+- **Nash Budget Allocation**: Implementation in Assignment_10/Assignment_10.py
 
 ## License
 
