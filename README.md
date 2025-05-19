@@ -2,6 +2,10 @@
 
 This repository contains a consolidated collection of assignments, projects, and learning materials from my Economic Algorithms coursework at Ariel University.
 
+## Repository Organization Note
+
+This repository was reorganized on May 18, 2025, to use a consistent folder structure. All content is now located in folders named Assignment_X (where X is the assignment number). The old folders (Economic_Algorithms_Assignment_X) remain but contain only README files that redirect to the new locations.
+
 ## Overview
 
 Economic Algorithms is a field that combines economics, game theory, and computer science to design and analyze algorithms for economic scenarios. This repository includes implementations of various economic algorithms, mathematical proofs, and solutions to complex economic problems.
